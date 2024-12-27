@@ -1,0 +1,30 @@
+{
+    // model
+    "model": "Stage2_model",
+    "iter": 0,
+    // net
+    "networks":[{
+        "name": "MS_BNN",
+        "type": "MS_BNN",
+        "bss": {
+            "blindspot1": 5,
+            "blindspot2": 7,
+            "blindspot3": 9
+        }
+//         , "path": ""
+    }, {
+        "name": "Trans_LAN",
+        "type": "Trans_LAN",
+        "bss": {
+            "blindspot": 3
+        }
+//         , "path": ""
+    }, {
+        "name": "UNet",
+        "type": "UNet",
+        "bss": {}
+        // , "path": ""
+    }]
+
+//    , "resume_from": ""
+}
